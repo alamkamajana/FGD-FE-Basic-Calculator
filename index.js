@@ -2,6 +2,7 @@ const numbers = document.querySelectorAll(".number");
 const calculatorScreen = document.querySelector(".calculator-screen")
 
 
+
 console.info(numbers)
 
 const updateScreen = (number) => {
@@ -75,7 +76,7 @@ const calculate = ()=>{
             result = parseFloat(prevNumber) / parseFloat(currentNumber)
             break;
 
-    
+        
         default:
             return;
     }
@@ -120,4 +121,7 @@ persen.addEventListener("click", () => {
     inputPersen()
     updateScreen(currentNumber)
 })
+
+
+
 
